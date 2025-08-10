@@ -70,7 +70,7 @@ function Navbar() {
       <div className="mobile_view md:hidden flex items-center justify-between px-2 py-4 
       bg-gradient-to-r from-teal-400 to-teal-300">
         {/* Back Arrow */}
-        <ArrowLeftIcon className="h-5 w-[26px] text-black" />
+        <ArrowLeftIcon className="h-7 text-black" />
 
         {/* Search Bar */}
         <div className="flex flex-1 items-center bg-gray-100 py-1 rounded-lg mx-3">
