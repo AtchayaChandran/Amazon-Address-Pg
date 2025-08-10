@@ -67,8 +67,8 @@ function Navbar() {
         </nav>
       </div>
       {/*-----------------------------------mobile view------------------------------*/}
-      <div className="mobile_view md:hidden flex items-center justify-between px-2 py-4 
-      bg-gradient-to-r from-teal-400 to-teal-300">
+      <div className="mobile_view md:hidden flex items-center justify-between px-[5px] py-4
+      bg-gradient-to-r from-teal-400 to-blue-200">
         {/* Back Arrow */}
         <ArrowLeftIcon className="h-7 text-black" />
 
@@ -78,7 +78,7 @@ function Navbar() {
           <input
             type="text"
             placeholder="Search Amazon.in..."
-            className="flex-1 bg-transparent outline-none h-[4vh] ml-[3px]
+            className="flex-1 bg-transparent outline-none h-[4vh] w-[4vw] ml-[3px]
             placeholder-gray-700 font-normal border border-none"
           />
 
@@ -87,7 +87,7 @@ function Navbar() {
         </div>
 
         {/* QR Code Icon */}
-        <QrCodeIcon className="h-7 w-[9vw] text-black" />
+        <QrCodeIcon className="h-7 text-black" />
       </div>
 
     </>
